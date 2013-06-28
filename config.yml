@@ -8,9 +8,9 @@ projects:
     tags:
       - Status
   - 
-    name: user/other
+    name: zaidan/rom-status-example
     tags:
-      - Other
+      - Example
 team:
   - name: some Name
     nick: nick
