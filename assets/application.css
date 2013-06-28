@@ -1,0 +1,150 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+html {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+q, blockquote {
+  quotes: none; }
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+a img {
+  border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block; }
+
+body {
+  background-color: #dddddd;
+  font-family: arial, helvetica, sans; }
+  body p, body ul, body dl, body tr {
+    font-size: 12px; }
+  body th {
+    font-size: 14px; }
+  body h1 {
+    font-size: 26px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: arial;
+    font-weight: bold;
+    color: #222222; }
+  body #top {
+    background-color: black; }
+    body #top h1 {
+      color: white; }
+    body #top #topcontent {
+      *zoom: 1;
+      max-width: 940px;
+      _width: 940px;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-left: auto;
+      margin-right: auto;
+      margin: 0px auto;
+      height: 45px; }
+      body #top #topcontent:after {
+        content: "";
+        display: table;
+        clear: both; }
+      body #top #topcontent .title {
+        text-decoration: none; }
+  body #monster {
+    *zoom: 1;
+    max-width: 940px;
+    _width: 940px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    padding: 0px; }
+    body #monster:after {
+      content: "";
+      display: table;
+      clear: both; }
+    body #monster #content {
+      width: 100%;
+      float: left;
+      margin-right: 2.12766%;
+      display: inline;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -o-border-radius: 5px;
+      border-radius: 5px;
+      background-color: white;
+      margin: 0px; }
+      body #monster #content #main {
+        overflow: hidden;
+        padding: 1em; }
+        body #monster #content #main #projects {
+          overflow: hidden; }
+          body #monster #content #main #projects table {
+            width: 100%; }
+          body #monster #content #main #projects tr {
+            margin-top: 5px;
+            margin-left: 5px;
+            height: 40px;
+            border-bottom: solid 1px #d6d3d3; }
+            body #monster #content #main #projects tr:hover {
+              background-color: #d6d3d3; }
+          body #monster #content #main #projects td, body #monster #content #main #projects th {
+            width: 140px;
+            margin: 0px;
+            padding-left: 5px; }
+          body #monster #content #main #projects th {
+            background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dddddd), color-stop(100%, #d6d3d3));
+            background-image: -webkit-linear-gradient(#dddddd, #d6d3d3);
+            background-image: -moz-linear-gradient(#dddddd, #d6d3d3);
+            background-image: -o-linear-gradient(#dddddd, #d6d3d3);
+            background-image: linear-gradient(#dddddd, #d6d3d3);
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            -ms-border-radius: 3px;
+            -o-border-radius: 3px;
+            border-radius: 3px;
+            font-weight: bold;
+            font-size: 15px;
+            padding-bottom: 8px;
+            color: orange; }
+          body #monster #content #main #projects .tag {
+            background-color: #128028;
+            margin: 2px;
+            padding: 1px;
+            color: white;
+            border-radius: 10px;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+            border: 2px solid #096929;
+            yytext-decoration: none; }

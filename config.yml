@@ -1,0 +1,23 @@
+page: 
+  title: The rom-status example!
+  meta_description: 
+  heading:
+projects:
+  - 
+    name: mbj/rom-status
+    tags:
+      - Status
+  - 
+    name: user/other
+    tags:
+      - Other
+team:
+  - name: some Name
+    nick: nick
+    twitter: nick
+    github: nick
+sponsors:
+  - name: Name
+    url: https://example.tld
+    markdown: |
+      Some Text

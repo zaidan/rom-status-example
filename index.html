@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The rom-status example!</title>
+    <link href='assets/application.css' media='screen' rel='stylesheet' type='text/css'>
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js'></script>
+    <script src='assets/application.js'></script>
+    <meta name='description'>
+  </head>
+  <body>
+    <div id='top'>
+      <div id='topcontent'>
+        <a class='title' href='/'>
+          <h1>The rom-status example!</h1>
+        </a>
+      </div>
+    </div>
+    <div id='monster'>
+      <div id='content'>
+        <div id='main'>
+          <div id='reset'>
+            <a href='javascript:show()'>
+              Show all
+            </a>
+          </div>
+          <table id='projects'>
+            <tr>
+              <th>Name</th>
+              <th>
+                Gemnasium
+              </th>
+              <th>
+                Codeclimate
+              </th>
+              <th>
+                Travis
+              </th>
+              <th>
+                Rubygems
+              </th>
+            </tr>
+            <tr>
+              <td>
+                <a href='https://github.com/mbj/rom-status'>
+                  rom-status
+                </a>
+                <a class='tag' href="javascript:showTag('Status')">
+                  Status
+                </a>
+              </td>
+              <td>
+                <a href='https://gemnasium.com/mbj/rom-status'>
+                  <img src='https://gemnasium.com/mbj/rom-status.png'>
+                </a>
+              </td>
+              <td>
+                <a href='https://codeclimate.com/github/mbj/rom-status'>
+                  <img src='https://codeclimate.com/github/mbj/rom-status.png'>
+                </a>
+              </td>
+              <td>
+                <a href='https://api.travis-ci.org/mbj/rom-status'>
+                  <img src='https://travis-ci.org/mbj/rom-status.png?branch=master'>
+                </a>
+              </td>
+              <td>
+                <a href='https://rubygems.org/gems/rom-status'>
+                  <img src='https://badge.fury.io/rb/rom-status.png'>
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <a href='https://github.com/user/other'>
+                  other
+                </a>
+                <a class='tag' href="javascript:showTag('Other')">
+                  Other
+                </a>
+              </td>
+              <td>
+                <a href='https://gemnasium.com/user/other'>
+                  <img src='https://gemnasium.com/user/other.png'>
+                </a>
+              </td>
+              <td>
+                <a href='https://codeclimate.com/github/user/other'>
+                  <img src='https://codeclimate.com/github/user/other.png'>
+                </a>
+              </td>
+              <td>
+                <a href='https://api.travis-ci.org/user/other'>
+                  <img src='https://travis-ci.org/user/other.png?branch=master'>
+                </a>
+              </td>
+              <td>
+                <a href='https://rubygems.org/gems/other'>
+                  <img src='https://badge.fury.io/rb/other.png'>
+                </a>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
