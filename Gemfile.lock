@@ -56,7 +56,7 @@ GIT
 
 GIT
   remote: https://github.com/zaidan/rom-status.git
-  revision: 33783f27e7cf9b90bc913586bb78805703fe529f
+  revision: 006434658c5896d94018447aba81d90a7c24352e
   specs:
     rom-status (0.0.4)
       adamantium (~> 0.0.7)
